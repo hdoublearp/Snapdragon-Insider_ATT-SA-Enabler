@@ -54,6 +54,9 @@ REPLACE="
 /system/priv-app/TeleService/TeleService.apk
 /system/priv-app/TeleService/TeleService/oat/arm64/TeleService.odex
 /system/priv-app/TeleService/TeleService/oat/arm64/TeleService.vdex
+/system/priv-app/TeleService/AsusSettings.apk
+/system/priv-app/TeleService/AsusSettings/oat/arm64/AsusSettings.odex
+/system/priv-app/TeleService/AsusSettings/oat/arm64/AsusSettings.vdex
 "
 
 ##########################################################################################
@@ -129,6 +132,7 @@ print_modname() {
   ui_print "     Force Enable SA Toggle    "
   ui_print "*******************************"
   ui_print "Patching TeleService.apk systemlessly."
+  ui_print "Patching AsusSettings.apk systemlessly."
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
