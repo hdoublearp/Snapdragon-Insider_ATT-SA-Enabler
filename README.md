@@ -1,2 +1,2 @@
 ### Magisk Module to enable NR-SA on AT&T SIM cards and on AT&T's PLMN
-ASUS disabled NR-SA for AT&T on the Snapdragon Smartphone for Insiders as of the October 2021 OTA. They did so by putting logic into a system framework that checks for AT&T SIM cards or PLMN and subsequentially disables NR-SA. This module restores that functionality.
+ASUS disabled NR-SA for AT&T on the Snapdragon Smartphone for Insiders as of the October 2021 OTA. They did so by putting logic into privileged system applications that check for AT&T SIM cards or PLMN and subsequentially disable NR-SA. This module restores that functionality by systemlessly replacing those applications back to a version which did not have these checks (UL-ASUS_I007_1-ASUS-18.1030.2107.138-1.1.27-user).
