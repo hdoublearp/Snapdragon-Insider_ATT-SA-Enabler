@@ -1,0 +1,7 @@
+id=ssi_sa_enabler
+name=Restore NR-SA on AT&T
+version=v1
+versionCode=20211208
+author=hdoublearp
+description=Modifies the TeleService.apk to restore NR-SA capability when using AT&T SIM cards or when on AT&T's PLMN.
+minMagisk=2000
